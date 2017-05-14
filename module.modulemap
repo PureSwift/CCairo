@@ -1,8 +1,5 @@
 module CCairo [system] {
-    header "/usr/include/cairo/cairo.h"
-    header "/usr/include/cairo/cairo-pdf.h"
-    header "/usr/include/cairo/cairo-svg.h"
-    header "/usr/include/cairo/cairo-ft.h"
+    header "shim.h"
     link "cairo"
     export *
 }

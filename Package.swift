@@ -1,5 +1,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CCairo"
+    name: "CCairo",
+    pkgConfig: "cairo",
+    providers: [.Brew("cairo"), .Apt("cairo")]
 )
