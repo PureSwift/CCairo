@@ -1,0 +1,7 @@
+module CCairo [system] {
+    header "cairo/cairo.h"
+    header "cairo/cairo-pdf.h"
+    header "cairo/cairo-svg.h"
+    header "cairo/cairo-ft.h"
+    export *
+}

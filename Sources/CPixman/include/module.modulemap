@@ -1,0 +1,4 @@
+module CPixman [system] {
+    header "pixman/pixman.h"
+    export *
+}
